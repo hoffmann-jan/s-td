@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 4589810206446086130}
   - component: {fileID: 7517284981440974659}
   - component: {fileID: 8003557048756553371}
-  - component: {fileID: 3671935359584696545}
   m_Layer: 0
   m_Name: TowerSpot
   m_TagString: Untagged
@@ -121,27 +120,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1b8dad6cda62451b9af5aac8f365e5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TowerPrefab: {fileID: 1966603754674398154, guid: b438421c6c6714fe99d420578f5251c1,
+  TowerPrefab: {fileID: 7166760991845657057, guid: 0cf8b429a23b746668366d448c56d9bb,
     type: 3}
---- !u!114 &3671935359584696545
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2458565616534718082}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ede5a8e791fe4674bff4118990bb79b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TowerLevel:
-  - Costs: 0
-    Tower: {fileID: 1966603754674398154, guid: b438421c6c6714fe99d420578f5251c1, type: 3}
-  - Costs: 0
-    Tower: {fileID: 8905956855486341871, guid: 538d3204db17a4b369c69ee3de412643, type: 3}
-  - Costs: 0
-    Tower: {fileID: 1549141923336451494, guid: ef14063c4b85f44a69bce68a86bbd551, type: 3}
-  CurrentLevel:
-    Costs: 0
-    Tower: {fileID: 0}
